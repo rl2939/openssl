@@ -155,7 +155,6 @@ my $guess_patterns = [
     [ 'DYNIX\/ptx:4.*?:.*',         '${MACHINE}-whatever-sysv4' ],
     [ '.*?:4\.0:3\.0:3[34]..(,.*)?', 'i486-ncr-sysv4' ],
     [ 'ULTRIX:.*',                  '${MACHINE}-unknown-ultrix' ],
-    [ 'POSIX-BC.*',                 'BS2000-siemens-sysv4' ],
     [ 'machten:.*',                 '${MACHINE}-tenon-${SYSTEM}' ],
     [ 'library:.*',                 '${MACHINE}-ncr-sysv4' ],
     [ 'ConvexOS:.*?:11\.0:.*',      '${MACHINE}-v11-${SYSTEM}' ],
