@@ -807,7 +807,6 @@ EOF
       [ '.*-.*-vos',              { target => "vos",
                                     disable => [ 'threads', 'shared', 'asm',
                                                  'dso' ] } ],
-      [ 'BS2000-siemens-sysv4',   { target => "BS2000-OSD" } ],
       [ 'i[3456]86-.*-cygwin',    { target => "Cygwin-x86" } ],
       [ '.*-.*-cygwin',
         sub { return { target => "Cygwin-${MACHINE}" } } ],
